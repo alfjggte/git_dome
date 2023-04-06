@@ -1,0 +1,31 @@
+https://worktile.com/kb/ask/20275.html
+
+初始化本地创库
+git init 
+
+查看本地创库状态
+git status
+
+添加到缓存
+git add . 
+
+提交到本地仓库
+git commit -m ‘xxx’ 
+
+穿越版本
+git reset --hard 版本号
+
+切到主分支
+git checkout master 
+
+获取最新变更
+git fetch origin 
+
+基于主分支创建dev分支
+git checkout -b dev origin/master 
+
+创建远程创库链接别名
+git remote add 别名 远程链接
+查看别名
+git remote -v
+
